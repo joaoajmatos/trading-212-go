@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	trading212 "github.com/joaoamatos/trading-212-go"
+	trading212 "github.com/joaoajmatos/trading-212-go"
 )
 
 // newRLTestClient is like newTestClient but also enables WithRateLimiting.

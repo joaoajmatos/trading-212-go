@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	trading212 "github.com/joaoamatos/trading-212-go"
+	trading212 "github.com/joaoajmatos/trading-212-go"
 )
 
 // newTestClient creates a Client pointing at a test server and registers

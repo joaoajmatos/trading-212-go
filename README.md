@@ -2,8 +2,8 @@
 
 A Go client library for the [Trading 212 REST API](https://t212public-api-docs.redoc.ly/).
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/joaoamatos/trading-212-go.svg)](https://pkg.go.dev/github.com/joaoamatos/trading-212-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/joaoamatos/trading-212-go)](https://goreportcard.com/report/github.com/joaoamatos/trading-212-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/joaoajmatos/trading-212-go.svg)](https://pkg.go.dev/github.com/joaoajmatos/trading-212-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/joaoajmatos/trading-212-go)](https://goreportcard.com/report/github.com/joaoajmatos/trading-212-go)
 
 ## Requirements
 
@@ -16,7 +16,7 @@ A Go client library for the [Trading 212 REST API](https://t212public-api-docs.r
 ## Installation
 
 ```sh
-go get github.com/joaoamatos/trading-212-go
+go get github.com/joaoajmatos/trading-212-go
 ```
 
 ## Quick start
@@ -29,7 +29,7 @@ import (
     "fmt"
     "log"
 
-    trading212 "github.com/joaoamatos/trading-212-go"
+    trading212 "github.com/joaoajmatos/trading-212-go"
 )
 
 func main() {
