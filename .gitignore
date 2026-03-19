@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with go test -c
+*.test
+
+# Output of go build
+/trading-212-go
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment files
+.env
