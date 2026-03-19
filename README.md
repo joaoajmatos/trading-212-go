@@ -1,4 +1,4 @@
-# trading-212-go
+# `trading-212-go`
 
 A Go client library for the [Trading 212 REST API](https://t212public-api-docs.redoc.ly/).
 
