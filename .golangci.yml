@@ -1,0 +1,22 @@
+linters:
+  enable:
+    - staticcheck   # includes gosimple, stylecheck, unused
+    - errcheck      # unhandled errors
+    - govet         # go vet checks
+    - ineffassign   # assignments that are never read
+    - revive        # general style (replaces golint)
+
+linters-settings:
+  revive:
+    rules:
+      - name: exported          # exported symbols must have doc comments
+      - name: error-return      # error should be the last return value
+      - name: error-strings     # error strings must not be capitalised
+      - name: increment-decrement
+
+issues:
+  exclude-rules:
+    # Test files are exempt from the exported-doc requirement.
+    - path: "_test\\.go"
+      linters: [revive]
+      text: "exported"
